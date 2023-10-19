@@ -51,33 +51,33 @@ else:
 '''
 Exercise 5:** Create a list of the words in the story and print the first 10 words.
 '''
-words = [story[0:75]] # write your code here
-print("First 10 words in the story:", words)
+words = story.split() # write your code here
+print("First 10 words in the story:", words[0:10])
 
 '''
 Exercise 6:** Create a list of the words in the story and print the last 10 words.
 '''
-print("Last 10 words in the story:", words)
+# print("Last 10 words in the story:", words)
 
 '''
 Exercise 7:** Create a list of the words in the story and print the words in the 10th to 20th position.
 '''
-print("Words in the 10th to 20th position:", words)
+# print("Words in the 10th to 20th position:", words)
 
 '''
 Exercise 8:** Count the number of times the word "Javier" appears in the story.
 '''
 javier_count = 0 # write your code here
-print("Number of times the word 'Javier' appears in the story:", javier_count)
+# print("Number of times the word 'Javier' appears in the story:", javier_count)
 
 '''
 Exercise 9:** Replace the word "Javier" with "Pepito" in the story.
 '''
 story2 = "" # write your code here
-print("Story with 'Javier' replaced with 'Pepito':", story2)
+# print("Story with 'Javier' replaced with 'Pepito':", story2)
 
 '''
 Exercise 10:** Reverse the order of the words in the story.
 '''
 story3 = "" # write your code here
-print("Story with words reversed:", story3)
+# print("Story with words reversed:", story3)
