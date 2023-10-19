@@ -92,3 +92,5 @@ def writeFile(story, file_name):
 
 writeFile(story2, "story-pepito.txt")
 writeFile(story3, "story-reversed.txt")
+
+# Algo paso que en GITHUB me salia commit conflicts como 13 de ellos y tube que hacer un discard. Por eso hago un nuevo commit de todos los ejercicios completados. 
