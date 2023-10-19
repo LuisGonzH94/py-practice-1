@@ -79,18 +79,4 @@ story2 = story.replace('Javier', 'pepito') # write your code here
 '''
 Exercise 10:** Reverse the order of the words in the story.
 '''
-story3 = story.split() # write your code here
-# print("Story with words reversed:", story3[::-1])
 
-'''
-Exercise 11:** write story to a file with a parameterized name. 
-'''
-
-def writeFile(story, file_name):
-  with open(file_name, "w") as f:
-    f.write(story)
-
-writeFile(story2, "story-pepito.txt")
-writeFile(story3, "story-reversed.txt")
-
-# Algo paso que en GITHUB me salia commit conflicts como 13 de ellos y tube que hacer un discard. Por eso hago un nuevo commit de todos los ejercicios completados. 
