@@ -51,7 +51,7 @@ else:
 '''
 Exercise 5:** Create a list of the words in the story and print the first 10 words.
 '''
-words = [] # write your code here
+words = [story[0:75]] # write your code here
 print("First 10 words in the story:", words)
 
 '''
