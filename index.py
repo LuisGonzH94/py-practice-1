@@ -15,7 +15,7 @@ in the provided story (including spaces and punctuation).
 '''
 character_count = 0 # write your code here
 character_count += len(story)
-print("Number of characters in the story:", character_count)
+# print("Number of characters in the story:", character_count)
 
 # Numbers
 
@@ -33,7 +33,7 @@ years_left += new_year - year
 Exercise 3:** Calculate the number of DAYS until 2045.
 '''
 days_left = years_left * 365 # write your code here
-print("Number of days left:", days_left)
+# print("Number of days left:", days_left)
 
 # 3. Booleans
 
@@ -41,10 +41,10 @@ print("Number of days left:", days_left)
 Exercise 4:** Check if the word "IA" is includes in the story.
 '''
 ia_in_story = "IA" in story # write your code here
-if (ia_in_story):
-  print("The word 'IA' is in the story")
-else:
-  print("The word 'IA' is not in the story")
+# if (ia_in_story):
+#   print("The word 'IA' is in the story")
+# else:
+#   print("The word 'IA' is not in the story")
 
 # 4. Lists
 
@@ -62,25 +62,25 @@ Exercise 6:** Create a list of the words in the story and print the last 10 word
 '''
 Exercise 7:** Create a list of the words in the story and print the words in the 10th to 20th position.
 '''
-print("Words in the 10th to 20th position:", words[10: 21])
+# print("Words in the 10th to 20th position:", words[10: 21])
 
 '''
 Exercise 8:** Count the number of times the word "Javier" appears in the story.
 '''
-javier_count = 0 # write your code here
+javier_count = story.count('Javier') # write your code here
 # print("Number of times the word 'Javier' appears in the story:", javier_count)
 
 '''
 Exercise 9:** Replace the word "Javier" with "Pepito" in the story.
 '''
-story2 = "" # write your code here
+story2 = story.replace('Javier', 'pepito') # write your code here
 # print("Story with 'Javier' replaced with 'Pepito':", story2)
 
 '''
 Exercise 10:** Reverse the order of the words in the story.
 '''
-story3 = "" # write your code here
-# print("Story with words reversed:", story3)
+story3 = story.split() # write your code here
+# print("Story with words reversed:", story3[::-1])
 
 '''
 Exercise 11:** write story to a file with a parameterized name. 
