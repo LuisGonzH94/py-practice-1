@@ -15,7 +15,7 @@ in the provided story (including spaces and punctuation).
 '''
 character_count = 0 # write your code here
 character_count += len(story)
-# print("Number of characters in the story:", character_count)
+print("Number of characters in the story:", character_count)
 
 # Numbers
 
@@ -32,8 +32,8 @@ years_left += new_year - year
 '''
 Exercise 3:** Calculate the number of DAYS until 2045.
 '''
-days_left = new_year * 365 # write your code here
-# print("Number of days left:", days_left)
+days_left = years_left * 365 # write your code here
+print("Number of days left:", days_left)
 
 # 3. Booleans
 
@@ -52,7 +52,7 @@ else:
 Exercise 5:** Create a list of the words in the story and print the first 10 words.
 '''
 words = story.split() # write your code here
-print("First 10 words in the story:", words[0:10])
+# print("First 10 words in the story:", words[0:10])
 
 '''
 Exercise 6:** Create a list of the words in the story and print the last 10 words.
@@ -62,7 +62,7 @@ Exercise 6:** Create a list of the words in the story and print the last 10 word
 '''
 Exercise 7:** Create a list of the words in the story and print the words in the 10th to 20th position.
 '''
-print("Words in the 10th to 20th position:", words[10: 20])
+print("Words in the 10th to 20th position:", words[10: 21])
 
 '''
 Exercise 8:** Count the number of times the word "Javier" appears in the story.
@@ -81,3 +81,14 @@ Exercise 10:** Reverse the order of the words in the story.
 '''
 story3 = "" # write your code here
 # print("Story with words reversed:", story3)
+
+'''
+Exercise 11:** write story to a file with a parameterized name. 
+'''
+
+def writeFile(story, file_name):
+  with open(file_name, "w") as f:
+    f.write(story)
+
+writeFile(story2, "story-pepito.txt")
+writeFile(story3, "story-reversed.txt")
