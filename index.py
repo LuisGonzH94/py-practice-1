@@ -15,7 +15,7 @@ in the provided story (including spaces and punctuation).
 '''
 character_count = 0 # write your code here
 character_count += len(story)
-print("Number of characters in the story:", character_count)
+# print("Number of characters in the story:", character_count)
 
 # Numbers
 
@@ -27,13 +27,13 @@ year = 2023 # get current year
 years_left = 0 # write your code here
 new_year = 2045
 years_left += new_year - year
-print("Number of years left:", years_left)
+# print("Number of years left:", years_left)
 
 '''
 Exercise 3:** Calculate the number of DAYS until 2045.
 '''
 days_left = new_year * 365 # write your code here
-print("Number of days left:", days_left)
+# print("Number of days left:", days_left)
 
 # 3. Booleans
 
@@ -57,12 +57,12 @@ print("First 10 words in the story:", words[0:10])
 '''
 Exercise 6:** Create a list of the words in the story and print the last 10 words.
 '''
-print("Last 10 words in the story:", words[-10:])
+# print("Last 10 words in the story:", words[-10:])
 
 '''
 Exercise 7:** Create a list of the words in the story and print the words in the 10th to 20th position.
 '''
-# print("Words in the 10th to 20th position:", words)
+print("Words in the 10th to 20th position:", words[10: 20])
 
 '''
 Exercise 8:** Count the number of times the word "Javier" appears in the story.
