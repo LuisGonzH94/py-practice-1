@@ -26,13 +26,14 @@ Use the variable `year` to store the current year.
 year = 2023 # get current year
 years_left = 0 # write your code here
 new_year = 2045
-years_left = new_year - year
+years_left += new_year - year
 print("Number of years left:", years_left)
 
 '''
 Exercise 3:** Calculate the number of DAYS until 2045.
 '''
 days_left = 0 # write your code here
+total_days = 365
 print("Number of days left:", days_left)
 
 # 3. Booleans
