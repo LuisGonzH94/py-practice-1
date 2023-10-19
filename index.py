@@ -25,6 +25,8 @@ Use the variable `year` to store the current year.
 '''
 year = 2023 # get current year
 years_left = 0 # write your code here
+new_year = 2045
+years_left = new_year - year
 print("Number of years left:", years_left)
 
 '''
